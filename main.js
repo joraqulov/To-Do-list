@@ -16,8 +16,10 @@ function add() {
     function clik() {
       if (newElement.style.textDecoration === "line-through") {
         newElement.style.textDecoration = "none";
+        newElement.style.color = " black";
       } else {
         newElement.style.textDecoration = "line-through";
+        newElement.style.color = "red";
       }
     }
     newElement.onclick = clik;
