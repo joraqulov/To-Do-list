@@ -17,9 +17,12 @@ function add() {
       if (newElement.style.textDecoration === "line-through") {
         newElement.style.textDecoration = "none";
         newElement.style.color = " black";
+        newElement.style.backgroundColor = "white";
       } else {
         newElement.style.textDecoration = "line-through";
-        newElement.style.color = "red";
+        newElement.style.backgroundColor = "slategray";
+        
+        newElement.style.color = "white";
       }
     }
     newElement.onclick = clik;
